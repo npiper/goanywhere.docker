@@ -1,0 +1,9 @@
+[Unit]
+Description=GoAnywhere Managed file transfer
+
+[Service]
+Type=forking
+ExecStart=/home/vagrant/Linoma_Software/goanywhere.sh start
+
+[Install]
+WantedBy=multi-user.target
